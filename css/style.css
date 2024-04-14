@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	color: #fff;
+	background-color: #1f2029;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
+}
+/* body {
+	background-image: url(KAMAL.jpeg);
+	background-repeat: repeat;
+	background-size: 275px;
+	background-position-y: 7px;
+} */
+
+.container {
+	/* border: 1px solid black; */
+	/* background-color: #1d6120; */
+	width: 800px;
+	height: 580px;
+	margin-top: 45px;
+	/* box-shadow: 0px 0px 50px 10px rgb(255, 255, 255); */
+	backdrop-filter: blur(2px);
+	border-radius: 10px;
+	background-color: #F5F7F8;
+}
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.container-p:nth-child(1) {
+	font-style: normal;
+	font-size: 2rem;
+	color: black;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.container-p:nth-child(2) {
+	margin-top: -20px;
+	font-style: normal;
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	font-weight: bolder;
+}
+.container-p:nth-child(3) {
+	margin-top: 20px;
+	font-style: normal;
+	font-size: 1rem;
+	color: black;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.enkripsi {
+	margin-top: 2px;
+	margin-left: 50px;
+	width: 265px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #0F0F0F;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+}
+
+.dekripsi {
+	margin-top: 2px;
+	margin-left: 100px;
+	width: 265px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #0F0F0F;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+}
+
+.input {
+	border: 1px solid black;
+}
+
+#file {
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
+#gambar {
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
+
+label:nth-child(1) {
+	font-weight: bolder;
+	color: black;
+}
+label:nth-child(2) {
+	font-weight: bolder;
+	color: black;
+}
+label:nth-child(3) {
+	font-weight: bolder;
+	color: black;
+}
+
+#btn-enkrip {
+	margin-top: 20px;
+}
+
+#form-dekripsi {
+	padding-top: 50px;
+}
+
+#btn-dekrip {
+	margin-top: 20px;
+}
+
+small {
+	font-weight: bold;
+}
+
+#hasil_enkripsi {
+	position: relative;
+	background-color: rgb(13, 203, 190);
+	left: 280px;
+}
+#hasil_enkripsi h1 {
+	position: relative;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10px;
+}
+#hasil_enkripsi img {
+	margin-left: 180px;
+	border-radius: 100%;
+	height: 400px;
+	width: 450px;
+	background-color: white;
+}
+#hasil_enkripsi #a1 {
+	position: relative;
+	top: 20px;
+	left: 30px;
+	color: white;
+	font-size: 35px;
+}
+#hasil_enkripsi #back {
+	/* position: relative; */
+	/* top: 30px; */
+
+	position: relative;
+	left: 320px;
+	top: 20px;
+	/* margin-left: 650px; */
+	color: white;
+	font-size: 35px;
+}
